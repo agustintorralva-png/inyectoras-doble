@@ -1,0 +1,20 @@
+{
+  "name": "Registro de Turnos — Inyectoras",
+  "short_name": "Inyectoras",
+  "start_url": "/inyectoras-doble/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a3a5c",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
