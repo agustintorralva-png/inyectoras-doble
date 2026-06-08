@@ -172,7 +172,7 @@
     const inicio = document.getElementById('inicio').value;
     const fin    = document.getElementById('fin').value;
     const obs    = document.getElementById('observaciones').value.trim();
-
+console.log("obs:", obs);
     if (!legajo || !dia || !inicio || !fin) {
       setEstado('error', 'Completá todos los campos obligatorios antes de guardar.');
       return;
