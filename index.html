@@ -197,7 +197,7 @@
         method:  'POST',
         mode:    'no-cors',
         headers: { 'Content-Type': 'text/plain' },
-       body: `legajo=${encodeURIComponent(legajo)}&par=${encodeURIComponent(parNombres[par])}&dia=${encodeURIComponent(dia)}&inicio=${encodeURIComponent(inicio)}&fin=${encodeURIComponent(fin)}&horas=${calc.reales.toFixed(2)}&horasAPagar=${calc.aPagar.toFixed(2)}&observaciones=${encodeURIComponent(obs)}`
+      body: JSON.stringify(payload)
       });
       registro.enviado = true;
       setEstado('ok', '✓ Turno guardado y enviado a la planilla correctamente.');
